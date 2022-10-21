@@ -1,10 +1,7 @@
 # Crea una funcion llamada characterCounter que reciba
 # como parámetro una frase y devuelva su nº de caracteres
 
-
-def characterCounter(f):
-    return len(f)
-
+###### pon aquí tu código
 
 def test():
     assert characterCounter('Hola') == 4, "Should be 4"

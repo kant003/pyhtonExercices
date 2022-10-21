@@ -5,11 +5,7 @@
 # y que devuelva la palabra 'cero' si el número es igual a 0
 # si no se le pasa un número válido tambien deberá devolver 'cero'
 
-from contextlib import nullcontext
-
-
-
-
+###### pon aquí tu código
 
 def test():
     assert evaluator(4) == True, "4 should be true"

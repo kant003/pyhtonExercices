@@ -1,5 +1,6 @@
 # Crea función llamada myValue que devuelva un número decimal negativo
 
+###### pon aquí tu código
 
 def test():
     assert myValue() < 0, "Should be lower to 0"

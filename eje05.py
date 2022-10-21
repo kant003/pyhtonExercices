@@ -1,9 +1,6 @@
 #Crea una funcion llamada sub que reste 2 numeros
 
-
-def sub(a,b):
-    return a-b
-
+###### pon aquí tu código
 
 def test():
     assert sub(2,2) == 0, "Should be 0"
