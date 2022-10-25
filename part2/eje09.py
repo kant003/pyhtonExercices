@@ -2,6 +2,7 @@
 import math
 
 
+# Crear una función llamada get_distance(ax,ay, bx,by) que devuelva la distancia entre dos puntos del espacio 2D
 
 
 
