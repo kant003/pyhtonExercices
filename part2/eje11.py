@@ -13,7 +13,7 @@ v1=  ????
 v2=  ????
 
 
-#Guarda en una variable llamada v3 los caracteres desde la posicion 2 a la 5 inclusive
+#Guarda en una variable llamada v3 los caracteres desde la posicion 11 a la 14 inclusive
 v3=  ????
 
 
