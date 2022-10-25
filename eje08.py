@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # ejecuta la siguiente instrucción en la consola:
 # pip install mock
 
@@ -7,7 +9,10 @@
 # si esta es mayor de edad le mostrará la frase: 'Acceso permitido'
 
 
+def access():
+    return "Acceso permitido"
 
+from unittest.mock import MagicMock
 
 import mock
 def test():

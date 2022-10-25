@@ -1,10 +1,10 @@
-# Crea función llamada myValue que devuelva un número decimal negativo
+# Crea función llamada my_value que devuelva un número decimal negativo
 
 ###### pon aquí tu código
 
 def test():
-    assert myValue() < 0, "Should be lower to 0"
-    assert type(myValue()) is float, "should be a decimal"
+    assert my_value() < 0, "Should be lower to 0"
+    assert type(my_value()) is float, "should be a decimal"
 
 if __name__ == "__main__":
     test()
