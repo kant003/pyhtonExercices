@@ -18,6 +18,9 @@ Si el ejercicio está correcto deberás obtener: 'Everything passed'
 - Escucha el tutorial de MoureDev sobre python desde el minuto 03:01:00 hasta 4:33:00
     - Haz los ejercicios de la carpeta part3
 
+- Escucha el tutorial de MoureDev sobre python desde el minuto 4:33:00 hasta 5:57:00
+    - Haz los ejercicios de la carpeta part4
+
 https://youtu.be/Kp4Mvapo5kc?t=1131
 
 
