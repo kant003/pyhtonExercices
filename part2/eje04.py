@@ -18,9 +18,9 @@ def test():
     assert get_final_price(10, 4) == 40, "Should be 40"
     assert get_final_price(10, 0) == 0, "Should be 0"
     assert get_final_price(10, 5) == 45, "Should be 45"
-    assert get_final_price(10, 20) == 160, "Should be 180"
+    assert get_final_price(10, 20) == 160, "Should be 160"
     assert get_final_price(11, 22) == 193.6, "Should be 193.6"
-    assert get_final_price(12, 61) == 512.4, "Should be 193.6"
+    assert get_final_price(12, 61) == 512.4, "Should be 512.4"
     assert get_discount(100) == 30, "Should be 30"
 
 if __name__ == "__main__":
