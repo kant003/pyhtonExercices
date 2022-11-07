@@ -7,8 +7,8 @@ def numbers(total):
 
 
 def test():
-    assert type(numbers(4)) == list, "Should be a set"
-    assert numbers(4) == [1,2,3,4], "Should be a set"
+    assert type(numbers(4)) == list, "Should be a list"
+    assert numbers(4) == [1,2,3,4], "Should be list [1,2,3,4]"
 
 
 if __name__ == "__main__":
