@@ -3,13 +3,12 @@
 
 
 phrase="gato _oso polar_ _leon_ perro _serpiente_ _hiena_"
-
+import re
 def readPhrase(phrase):
-    # your code here
-    return phrase
+    return re.sub(r'_.*?_','',phrase)
 
 
-
+print(readPhrase(phrase))
 def test():
     assert readPhrase("hola _como estas_ _yo bien_ gracias") == "hola   gracias", "Should be hola   gracias"
     pass
