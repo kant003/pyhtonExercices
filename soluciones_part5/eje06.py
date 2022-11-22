@@ -15,6 +15,7 @@ def readPhrase2(phrase):
             phrase = phrase.replace(phrase[ini:fin],'')
     return phrase
 
+
 print(readPhrase(phrase))
 def test():
     assert readPhrase("hola _como estas_ _yo bien_ gracias") == "hola   gracias", "Should be hola   gracias"
