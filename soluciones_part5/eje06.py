@@ -8,6 +8,7 @@ def readPhrase(phrase):
     return re.sub(r'_.*?_','',phrase)
 
 
+
 print(readPhrase(phrase))
 def test():
     assert readPhrase("hola _como estas_ _yo bien_ gracias") == "hola   gracias", "Should be hola   gracias"
