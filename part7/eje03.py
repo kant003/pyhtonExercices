@@ -3,14 +3,7 @@
 # usa funciones lambda y orden superior
 
 def avg(numbers):
-    return sum(numbers)/len(numbers)
-
-
-import functools
-
-def avg2(numbers):
-    f = lambda x,y: x+y
-    return functools.reduce(f,numbers)/len(numbers)
+    pass
 
 
 def test():

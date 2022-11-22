@@ -7,6 +7,13 @@ import re
 def readPhrase(phrase):
     return re.sub(r'_.*?_','',phrase)
 
+def readPhrase2(phrase):
+    for c in phrase:
+        if c == '_':
+            ini=phrase.find(c)
+            fin=phrase.find('_',phrase.find(c)+1)+1
+            phrase = phrase.replace(phrase[ini:fin],'')
+    return phrase
 
 print(readPhrase(phrase))
 def test():
