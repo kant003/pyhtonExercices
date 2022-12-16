@@ -14,7 +14,7 @@ def test():
     assert get_type_doc('23') == None, "Should be N"
     assert get_type_doc('36723445n') == 'NIF', "Should be Nif"
     assert get_type_doc('a36723445') == 'CIF', "Should be cif"
-    assert get_type_doc('a3B723445') == None, "Should be none letter B in the middle"
+    assert get_type_doc('a3B723445') == None, "Should be none letter B the middle"
     assert get_type_doc('367Y3445n') == None, "Should be none letter Y in the middle"
 
 if __name__ == "__main__":
